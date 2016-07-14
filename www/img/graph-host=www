@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" class="ie6"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" class="ie7"> <![endif]-->
+<!--[if IE 8]>         <html xmlns="http://www.w3.org/1999/xhtml" class="ie8"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml">             <!--<![endif]-->
+<head>
+<meta name="viewport" content="width=1024" />
+<meta name="google-site-verification" content="i6ZARmNgvcdv1LL8W2r_MEw2noUtATGC60x_3KFzLb4" />
+<meta name="msvalidate.01" content="C8799271A08949092B47E52927B9CF2C" />
+<link rel="stylesheet" href="/css/netcraft.css?ver=21049906" type="text/css" />
+<link rel="stylesheet" href="/css/uptime_news.css?ver=21049906" type="text/css" />
+<link rel="stylesheet" href="/css/uptime_trends.css?ver=21049906" type="text/css" />
+<link rel="shortcut icon" href="/images/favicon.ico" />
+
+<script type="text/javascript">var ie_redirect = false;</script>
+<!--[if lte IE 8]><script type="text/javascript">var ie_redirect = true;</script><![endif]-->
+<script type="text/javascript">
+    // Javascript redirect deprecated content
+    var redirect = '';
+
+    // path and parameters
+    var path = window.location.href.toString().replace('http://' + window.location.host,'').split('?')[0];
+    var vars={};
+    var x=document.location.search.substring(1).split('&');
+    for(var i in x) {var z=x[i].split('=',2);vars[z[0]] = unescape(z[1]);}
+
+    // Decide where to redirect
+    if (path.match('^/up/graph')) {
+        var site = ((vars['site']) ? vars['site'] : vars['host']);
+
+        // If requesting a graph page redirect to the site report
+        redirect = 'http://toolbar.netcraft.com/site_report?url=' + site + '#last_reboot';
+
+    } else if (path.match('^/(up(/performance)?|perf)/hosted')) {
+        var netname = vars['netname'];
+
+        // If requesting a netname page redirect to netblock
+        redirect =  'http://toolbar.netcraft.com/netblock?q=' + netname;
+
+    } else {
+        redirect = 'http://toolbar.netcraft.com/site_report?url=www.netcraft.com';
+    }
+
+    if (ie_redirect) {
+        // Older versions of IE
+        window.location = redirect;
+    } else {
+        // replace does not add this page to the browser's history
+        window.location.replace(redirect);
+    }
+</script>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+<script type='text/javascript' src='http://ads.netcraft.com/www/delivery/spcjs.php?id=3'></script>
+
+<title>This page has moved</title>
+</head>
+<body>
+
+
+
+
+
+<div class="wrapper">
+
+    <div class="fixed-header">
+
+        <div class="top-layout">
+            <div class="container">
+                <div class="grid-wrapper">
+                    <div class="grid one-quarter">
+                        <a href="http://www.netcraft.com/" class="site-logo">
+                            <img style="width: 165px; height: 47px;" alt="Netcraft" src="http://www.netcraft.com/assets/images/logo@2x.png">
+                        </a>
+                    </div>
+                    <div class="grid two-quarters">
+                                            <!-- Letterbox Banner -->
+                        <div class="banner-container">
+                            <script type='text/javascript'><!--// <![CDATA[
+                                OA_show(7);
+                            // ]]> --></script><noscript><a target='_blank' href='http://ads.netcraft.com/www/delivery/ck.php?n=b79a52d'><img border='0' alt='' src='http://ads.netcraft.com/www/delivery/avw.php?zoneid=7&amp;n=b79a52d' /></a></noscript>
+                        </div>
+                        <!-- Letterbox Banner -->
+                                        </div>
+                    <div class="grid one-quarter top-right-header">
+                        <ul class="social-navigation">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6839" id="menu-item-6839"><a href="http://www.netcraft.com/about-netcraft/contact-us/">Contact Us</a></li>
+                            <li>|</li>
+                            <li class="last-item menu-item menu-item-type-post_type menu-item-object-page menu-item-7264" id="menu-item-7264"><a href="http://www.netcraft.com/about-netcraft/email-subscription/">Subscribe</a></li>
+                            <li class="share-icon"><a class="twitter-icon" href="https://twitter.com/netcraft">Follow us on Twitter</a></li>
+                            <li class="share-icon"><a class="facebook-icon" href="https://www.facebook.com/Netcraft">Follow us on Facebook</a></li>
+                            <li class="share-icon"><a class="email-icon" href="http://news.netcraft.com/feed">Netcraft RSS Feed</a></li>
+                        </ul>
+                        <div class="site-search">
+                            <form action="http://www.netcraft.com/search" id="searchform" method="get">
+                                <input type="text" placeholder="Search Netcraft" id="s" name="q" class="field">
+                                <input type="submit" value="Search" id="searchsubmit" name="submit" class="submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="nav-container">
+            <div class="container">
+                <ul class="nav">
+                    <li class="no-children"><a href="http://www.netcraft.com/">Home</a></li>
+                    <li class="no-children"><a href="http://news.netcraft.com">News</a></li>
+                    <li><a href="http://www.netcraft.com/anti-phishing/">Anti-Phishing</a>
+                        <ul class="sub-menu">
+                            <li><a href="http://toolbar.netcraft.com">Anti-Phishing Extension</a></li>
+                            <li><a href="http://www.netcraft.com/anti-phishing/phishing-site-feed/">Phishing Site Feed</a></li>
+                            <li><a href="http://www.netcraft.com/anti-phishing/hosting-phishing-alerts/">Hosting Phishing Alerts</a></li>
+                            <li><a href="http://www.netcraft.com/anti-phishing/certificate-authority-phishing-alerts/">SSL CA Phishing Alerts</a></li>
+                            <li><a href="http://www.netcraft.com/anti-phishing/phishing-alerts-for-domain-registries/">Registry Phishing Alerts</a></li>
+                            <li><a href="http://www.netcraft.com/anti-phishing/domain-registration-risk/">Domain Registration Risk</a></li>
+                            <li><a href="http://www.netcraft.com/anti-phishing/fraud-detection/">Fraud Detection</a></li>
+                            <li><a href="http://www.netcraft.com/anti-phishing/phishing-site-takedown/">Phishing Site Takedown &amp; Countermeasures</a></li>
+                            <li><a href="http://toolbar.netcraft.com/report_url">Report Suspicious URL</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://www.netcraft.com/security-testing/">Security Testing</a>
+                        <ul class="sub-menu">
+                            <li><a href="http://www.netcraft.com/security-testing/audited/">Audited by Netcraft</a></li>
+                            <li><a href="http://www.netcraft.com/security-testing/dedicated-server-monitoring/">Dedicated Server Monitoring</a></li>
+                            <li><a href="http://www.netcraft.com/security-testing/web-application/">Web Application Security Testing</a></li>
+                            <li><a href="http://www.netcraft.com/security-testing/mobile-app-security-testing/">Mobile App Security Testing</a></li>
+                            <li><a href="http://www.netcraft.com/security-testing/web-application-course/">Web Application Security Course</a></li>
+                            <li><a href="http://www.netcraft.com/security-testing/comparison-of-security-services/">Comparison of Security Services</a></li>
+                            <li><a href="http://www.netcraft.com/security-testing/security-testing-f-a-q/">Security Testing F.A.Q.</a></li>
+                            <li><a href="http://www.netcraft.com/security-testing/open-redirect-detection/">Open Redirect Detection Service</a></li>
+                        </ul>
+                    </li>
+                    <li ><a href="http://www.netcraft.com/internet-data-mining/">Internet Data Mining</a>
+                        <ul class="sub-menu">
+                            <li><a href="http://www.netcraft.com/internet-data-mining/hosting-analysis/">Hosting Provider Analysis</a></li>
+                            <li><a href="http://www.netcraft.com/internet-data-mining/hosting-provider-switching-dataset/">Hosting Provider Switching Analysis</a></li>
+                            <li><a href="http://www.netcraft.com/internet-data-mining/hosting-provider-server-count/">Hosting Provider Server Count</a></li>
+                            <li><a href="http://www.netcraft.com/internet-data-mining/taxonomy-of-internet-services-companies/">Hosting Industry Taxonomy</a></li>
+                            <li><a href="http://www.netcraft.com/internet-data-mining/site-operator-survey/">Site Operator Survey</a></li>
+                            <li><a href="http://www.netcraft.com/internet-data-mining/million-busiest-websites/">Million Busiest Websites</a></li>
+                            <li><a href="http://www.netcraft.com/internet-data-mining/busiest-sites-switching-analysis/">Busiest Sites Switching Analysis</a></li>
+                            <li><a href="http://www.netcraft.com/internet-data-mining/ssl-survey/">SSL Survey</a></li>
+                            <li><a href="http://www.netcraft.com/internet-data-mining/due-diligence-for-hosting-industry-investment-and-acquisitions/">Due Diligence for Hosting Industry Investment and Acquisitions</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="http://www.netcraft.com/monitoring-services/">Performance</a>
+                        <ul class="sub-menu">
+                            <li><a href="http://www.netcraft.com/security-testing/dedicated-server-monitoring/">Dedicated Server Monitoring</a></li>
+                            <li><a href="http://www.netcraft.com/monitoring-services/hosting-prospect-monitoring-uptime-alerts/">Hosting Prospects Performance Alerts</a></li>
+                            <li><a href="http://uptime.netcraft.com/perf/reports/Hosters">Hosting Providers Network Performance</a></li>
+                            <li><a href="http://uptime.netcraft.com/perf/reports/performance/OCSP">OCSP Responder Performance Monitoring</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://www.netcraft.com/about-netcraft/">About Netcraft</a>
+                        <ul class="sub-menu">
+                            <li><a href="http://www.netcraft.com/about-netcraft/">About Us</a></li>
+                            <li><a href="http://www.netcraft.com/about-netcraft/contact-us/">Contact Us</a></li>
+                            <li><a href="http://www.netcraft.com/about-netcraft/jobs/">Careers</a></li>
+                            <li><a href="http://www.netcraft.com/about-netcraft/banner-advertising/">Advertising with Netcraft</a></li>
+                            <li><a href="http://www.netcraft.com/about-netcraft/email-subscription/">Email Subscription</a></li>
+                            <li><a href="http://www.netcraft.com/about-netcraft/fair-use-copyright/">Fair Use and Copyright</a></li>
+                            <li><a href="http://www.netcraft.com/about-netcraft/privacy-statement/">Privacy Statement</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- main content container -->
+    <div class="container container--initial">
+        <div class="container--internal">
+
+            <div class="grid-wrapper grid-wrapper--main">
+                                <div class="grid ten-twelfths main-content" style="float: left;">
+                
+
+<!-- Deprecated page, redirect to toolbar -->
+<h2 class="netcraftmajorheading">This page has moved</h2>
+
+
+<p>This page has moved, please update your bookmarks. Your browser should redirect automatically to the <a href="http://toolbar.netcraft.com/site_report?url=http://demon.net#last_reboot">Site report</a> or <a href="http://toolbar.netcraft.com/netblock?q=G-CUS-CL01,89.145.80.0,89.145.87.255">Netblock information</a>.</p>
+<p>All our other services are still available via the menu above, including the latest <a href="http://uptime.netcraft.com/">performance</a>.</p>
+<p>Netcraft provide internet security services including <a href="http://www.netcraft.com/anti-phishing/">anti-fraud and anti-phishing services</a>, <a href="http://www.netcraft.com/security-testing/web-application/">application testing</a> and <a href="http://www.netcraft.com/security-testing/audited/">PCI scanning</a>. We also analyse many aspects of the internet, including the <a href="http://news.netcraft.com/archives/category/web-server-survey/" target="_blank">market share of web servers</a>, <a href="http://www.netcraft.com/internet-data-mining/hosting-provider-server-count/">operating systems</a>, <a href="http://www.netcraft.com/internet-data-mining/site-operator-survey/">hosting providers</a> and <a href="http://www.netcraft.com/internet-data-mining/ssl-survey/">SSL certificate authorities</a>.</p>
+
+</div>
+                                <div class="grid two-twelfths" style="float: left;">
+                    <!-- Skyscraper Banner -->
+                    <div class="banner-container" style="text-align: right;">
+                        <script type='text/javascript'><!--// <![CDATA[
+                            OA_show(8);
+                        // ]]> --></script><noscript><a target='_blank' href='http://ads.netcraft.com/www/delivery/ck.php?n=d317176'><img border='0' alt='' src='http://ads.netcraft.com/www/delivery/avw.php?zoneid=8&amp;n=d317176' /></a></noscript>
+                    </div>
+                    <!-- Skyscraper Banner -->
+                </div>
+                            </div>
+
+        </div><!-- end content internal -->
+    </div><!-- end content .container -->
+
+</div> <!-- end wrapper -->
+
+<div id="trends-footer">
+    <p style="float: left;">Your comments and suggestions are most welcome <a href="mailto:webmaster@netcraft.com">webmaster@netcraft.com</a></p>
+    <p style="float: right;">&copy; Netcraft 2014</p>
+    <div style="clear: both;"></div>
+</div>
+
+
+<![if !(lte IE 7)]>
+    <script type="text/javascript" src="/js/common/jquery-1.8.2.min.js?ver=21049906"></script>
+<![endif]>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(
+      ['_setAccount', 'UA-2150242-6'],
+      ['_trackPageview'],
+      ['b._setAccount', 'UA-2150242-9'],
+      ['b._trackPageview']
+    );
+  
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</body>
+</html>
+
